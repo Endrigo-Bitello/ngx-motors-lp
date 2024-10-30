@@ -17,7 +17,7 @@ const Demo = () => {
 
         <div className="relative group">
           <a
-            href="https://emxsoftwares.com.br" 
+            href="https://demo.ngxbr.com" 
             target="_blank"
             rel="noopener noreferrer"
             className="relative inline-block p-px font-semibold leading-6 text-zinc-900 bg-gray-800 shadow-lg cursor-pointer rounded-lg transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95"

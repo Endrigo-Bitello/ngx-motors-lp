@@ -26,7 +26,7 @@ export default function Home() {
         <meta property="og:title" content="NGX Motors | Soluções em Softwares para Revendas de Veículos" />
         <meta property="og:description" content="Soluções inovadoras para otimizar a gestão de revendas de veículos." />
         <meta property="og:image" content="/og-image.png" />
-        <meta property="og:url" content="https://www.ngxmotors.com.br" />
+        <meta property="og:url" content="https://www.ngxbr.com" />
         <meta property="og:type" content="website" />
 
         {/* Twitter Card */}

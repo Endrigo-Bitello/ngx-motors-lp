@@ -21,7 +21,7 @@ const Hero = () => {
 
         
         <a
-          href="https://emxsoftwares.com.br"
+          href="https://demo.ngxbr.com"
           target="_blank"
           rel="noopener noreferrer"
           className="group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-zinc-900 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:shadow-gray-600/50 border border-white/20 cursor-pointer"
