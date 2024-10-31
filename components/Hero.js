@@ -82,7 +82,7 @@ const Hero = () => {
 
         <motion.p 
           variants={itemVariants}
-          className="text-lg md:text-xl mb-12 max-w-2xl text-gray-600 dark:text-gray-300"
+          className="text-lg md:text-xl mb-12 max-w-2xl text-gray-600 dark:text-gray-600"
         >
           Transforme sua revenda em um sucesso digital com nossa plataforma inovadora. 
           Seus clientes estão online, e nós ajudamos você a alcançá-los.
