@@ -62,7 +62,7 @@ const Slides = () => {
   }, []);
 
   return (
-    <section className="bg-gradient-to-b from-gray-50 to-gray-100 py-20">
+    <section className="bg-white py-20">
       <div className="container mx-auto px-4">
         <div
           className="relative w-full max-w-5xl mx-auto overflow-hidden rounded-xl bg-white"
@@ -119,13 +119,12 @@ const Slides = () => {
             </svg>
           </button>
 
-          {/* Indicadores de Slide */}
-          <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-2">
+          <div className="absolute bottom-8 md:bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-3">
             {slidesData.map((_, index) => (
               <button
                 key={index}
                 onClick={() => goToSlide(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${currentSlide === index ? 'bg-gray-800' : 'bg-gray-400'
+                className={`w-3.5 h-3.5 rounded-full border border-gray-300 transition-colors duration-300 ${currentSlide === index ? 'bg-gray-800' : 'bg-transparent'
                   } focus:outline-none`}
                 aria-label={`Ir para o slide ${index + 1}`}
               ></button>
