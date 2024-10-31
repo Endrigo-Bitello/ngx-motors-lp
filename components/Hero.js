@@ -47,7 +47,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-[45vh] bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 text-gray-800 dark:text-gray-100 overflow-hidden">
+    <section className="relative min-h-[45vh] bg-slate-200 text-gray-800 dark:text-gray-100 overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute w-72 h-72 -top-10 -left-10 bg-blue-500/10 rounded-full blur-3xl animate-pulse" />
