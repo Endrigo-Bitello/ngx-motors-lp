@@ -20,7 +20,7 @@ const Navbar = () => {
 
 
         <div className="relative group">
-          <Link href="/demonstracao" passHref legacyBehavior>
+          <Link href="https://demo.ngxbr.com" passHref legacyBehavior>
             <a className="relative inline-flex items-center justify-center overflow-hidden rounded-xl bg-black opacity-90 h-12 w-48 z-10">
 
               <div
